@@ -6,7 +6,11 @@ export default {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Giarek: ['Bodoni Mod']
+      }
+    },
   },
   plugins: [],
 }

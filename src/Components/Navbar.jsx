@@ -40,7 +40,7 @@ const Navbar = () => {
       
       <div className='w-screen bg-orange-50/75 backdrop-blur-md dark:bg-zinc-900/50  transition duration-300 fixed dark:text-white flex justify-around'>
         <div className='flex items-center justify-center'>
-          <h2 className='md:text-3xl text-xl font-["New_York_Regular"]  '>PORTFOLIO</h2>
+          <h2 className={`md:text-3xl text-xl font-Giarek `}>PORTFOLIO</h2>
         </div>
         <div className=' items-center gap-3 text-center md:inline-flex hidden font-["Raleway"] tracking-wide'>
           <Link to='/' className='group flex items-center dark:hover:text-orange-500 hover:text-orange-500 dark:text-white p-2  gap-2 transition duration-300 linear'>
