@@ -24,19 +24,19 @@ const Homepage = () => {
         <div className='lg:text-right text-center lg:gap-5 gap-2 lg:mt-0 md:mt-20 mt-[55px] flex flex-col xl:w-3/4 w-fit m-4 text-lg'>
           <p className='text-md'>Heyy, I'm</p>
           <h2 className='font-Giarek md:tracking-wider text-orange-400 font-medium sm:text-4xl text-2xl' >SHREYASH DHULRAO</h2>
-          <p className='text-md'>Web Developer | Front-End Developer</p>
+          <p className='sm:text-lg text-sm'>Web Developer | Front-End Developer</p>
         </div>
         <div className=' xl:w-2/3 w-9/12 lg:h-screen lg:pt-16 lg:mt-1 h-1/4 flex items-center justify-center  mx-1 '>
           <img src={Self} alt="Shreyash Image" className='lg:h-full h-1/2'  />
         </div>
         <div className='xl:w-2/3 md:w-8/12 w-11/12 m-4 md:p-0 p-3 lg:text-left text-center '>
           <h2 className=' font-medium md:text-2xl text-lg text-orange-400'>Howdy folks! Let's explore together.</h2>
-          <p className='font-["Raleway"] text-md' >Brief description with the insights into myself, my vocational journey and what I engage in professional journey.</p>
-          <div className='flex md:flex-row flex-col items-center justify-center gap-3 md:m-3 m-0 my-2'>
-            <Link to='/contact' className='flex items-center bg-zinc-200 dark:bg-zinc-900 group justify-center py-2 px-4 gap-3 rounded-2xl hover:text-orange-500 md:w-2/3 w-full '>
-              <Contact className="text-black dark:text-zinc-100 w-6 dark:hover:text-orange-500 group-hover:text-current" />Contact</Link>
-            <a href={Resume} download="Resume.pdf" className='flex items-center border-zinc-200 dark:border-zinc-900 border-2 group justify-center py-2 px-4 gap-3 rounded-2xl hover:text-orange-500 md:w-2/3 w-full ' target='_blank'>
-              <Paper className="text-black dark:text-zinc-100 w-6 dark:hover:text-orange-500 group-hover:text-current" />Resume
+          <p className='font-["Raleway"] sm:text-lg text-sm' >Brief description with the insights into myself, my vocational journey and what I engage in professional journey.</p>
+          <div className='flex md:flex-row sm:w-auto w-full flex-col items-center justify-center gap-3 md:m-3 m-0 my-2'>
+            <Link to='/contact' className='flex items-center bg-zinc-200 dark:bg-zinc-900 sm:text-md text-sm group justify-center md:py-2 py-0 md:px-4 px-2 gap-3 rounded-2xl hover:text-orange-500 md:w-2/3 w-1/2 '>
+              <Contact className="text-black dark:text-zinc-100 sm:w-6 w-5 dark:hover:text-orange-500 group-hover:text-current" />Contact</Link>
+            <a href={Resume} download="Resume.pdf" className='flex items-center border-zinc-200 sm:text-md text-sm dark:border-zinc-900 border-2 group justify-center md:py-2 py-0 md:px-4 px-2 gap-3 rounded-2xl hover:text-orange-500 md:w-2/3 w-1/2 ' target='_blank'>
+              <Paper className="text-black dark:text-zinc-100 sm:w-6 w-5 dark:hover:text-orange-500 group-hover:text-current" />Resume
             </a>
           </div>
           <div className='flex items-center justify-center gap-5'>
@@ -133,25 +133,25 @@ const Homepage = () => {
         </div>
         <div className='flex md:flex-row flex-col justify-evenly gap-5 lg:w-full md:p-3 p-10'>
           <div className='border border-orange-400 text-center p-5 md:w-1/3 w-full gap-3 flex flex-col rounded-3xl'>
-            <h2 className='text-3xl font-semibold'>Web Designer</h2>
-            <p className='font-["Raleway"] text-justify '>I believe that a well-designed website is more than just a pretty face. It's a powerful tool that can help you connect with your audience and achieve your business objectives. I'll help to design websites that are both visually stunning and functionally effective.</p>
+            <h2 className='sm:text-3xl text-xl font-semibold'>Web Designer</h2>
+            <p className='font-["Raleway"] text-justify sm:text-lg text-sm '>I believe that a well-designed website is more than just a pretty face. It's a powerful tool that can help you connect with your audience and achieve your business objectives. I'll help to design websites that are both visually stunning and functionally effective.</p>
           </div>
           <div className='border border-orange-400 text-center p-5 md:w-1/3 w-full gap-3 flex flex-col rounded-3xl'>
-            <h2 className='text-3xl font-semibold'>Web Developer</h2>
-            <p className='font-["Raleway"] text-justify '>Partner with you to understand your unique business needs and develop tailored web applications. From concept to deployment, I'm dedicated to delivering exceptional results that exceed your expectations.</p>
+            <h2 className='sm:text-3xl text-xl font-semibold'>Web Developer</h2>
+            <p className='font-["Raleway"] text-justify sm:text-lg text-sm '>Partner with you to understand your unique business needs and develop tailored web applications. From concept to deployment, I'm dedicated to delivering exceptional results that exceed your expectations.</p>
           </div>
           <div className='border border-orange-400 text-center p-5 md:w-1/3 w-full gap-3 flex flex-col rounded-3xl'>
-            <h2 className='text-3xl font-semibold'>Photo Editor</h2>
-            <p className='font-["Raleway"] text-justify '>Transform your images into stunning works of art with my expert image editing skills. I specialize in [specific techniques, e.g., retouching, color correction, compositing] to deliver pixel-perfect results.</p>
+            <h2 className='sm:text-3xl text-xl font-semibold'>Photo Editor</h2>
+            <p className='font-["Raleway"] text-justify sm:text-lg text-sm '>Transform your images into stunning works of art with my expert image editing skills. I specialize in [specific techniques, e.g., retouching, color correction, compositing] to deliver pixel-perfect results.</p>
           </div>
         </div>
       </div>
       <div className='items-center flex justify-center '>
         <div className='h-full lg:flex-row w-full  flex-col xl:py-5 text-center py-5 px-5 lg:items-center items-center justify-evenly lg:justify-around bg-orange-50 dark:bg-zinc-900 text-black dark:text-white transition duration-300 ease-in-out'>
-          <h2 className='text-2xl font-["Raleway"] font-semibold'>Transform your online presence with a professionally designed and developed website. </h2>
+          <h2 className='md:text-2xl text-md font-["Raleway"] font-semibold'>Transform your online presence with a professionally designed and developed website. </h2>
           <div className='flex justify-center w-full my-2'>
-          <Link to='/contact' className='flex items-center border-2 border-orange-400 group justify-center py-2 px-6 gap-3 rounded-2xl text-orange-500 md:w-fit w-2/3 '>
-          <Contact className="w-6 text-orange-500" />Contact Me</Link>
+          <Link to='/contact' className='flex items-center border-2 border-orange-400 group justify-center sm:py-2 py-0 sm:px-6 gap-3 rounded-lg text-orange-500 md:w-fit w-1/2 '>
+          <Contact className="sm:w-6 w-5 text-orange-500" />Contact Me</Link>
           </div>
         </div>
       </div>
