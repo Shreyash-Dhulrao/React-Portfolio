@@ -23,7 +23,7 @@ const Homepage = () => {
       <div className='flex h-full data-twe-easing lg:flex-row flex-col lg:items-center items-center justify-evenly lg:justify-around bg-zinc-50 dark:bg-zinc-800 text-black dark:text-white transition duration-300 ease-in-out'>
         <div className='lg:text-right text-center lg:gap-5 gap-2 lg:mt-0 mt-20 flex flex-col lg:w-1/3 w-full m-4 text-lg'>
           <p className='text-md'>Heyy, I'm</p>
-          <h2 className='font-Giarek md:tracking-wider text-orange-400 font-semibold sm:text-6xl text-2xl' >Shreyash Dhulrao</h2>
+          <h2 className='font-Giarek md:tracking-wider text-orange-400 font-semibold sm:text-5xl text-2xl' >Shreyash Dhulrao</h2>
           <p className='text-md'>Web Developer | Front-End Developer</p>
         </div>
         <div className=' 2xl:w-1/3 w-9/12 lg:h-screen lg:pt-16 lg:mt-1 h-1/4 flex items-center justify-center  mx-1 '>
