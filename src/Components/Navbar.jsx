@@ -76,8 +76,8 @@ const Navbar = () => {
             <Link to='/work' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-fit items-center justify-center'>
               <Work className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Work
             </Link>
-            <Link to='/contact' className='flex flex-col text-smcenter border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-fit items-center justify-center'>
-              <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Contact Me
+            <Link to='/contact' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-fit items-center justify-center'>
+              <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Contact
             </Link>
           </div>
     </div>
