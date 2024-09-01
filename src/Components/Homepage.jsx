@@ -21,7 +21,7 @@ const Homepage = () => {
   return (
     <div>
       <div className='flex h-full data-twe-easing lg:flex-row flex-col lg:items-center items-center justify-evenly lg:justify-around bg-zinc-50 dark:bg-zinc-800 text-black dark:text-white transition duration-300 ease-in-out'>
-        <div className='lg:text-right text-center lg:gap-5 gap-2 lg:mt-0 mt-20 flex flex-col xl:w-3/4 w-fit m-4 text-lg'>
+        <div className='lg:text-right text-center lg:gap-5 gap-2 lg:mt-0 md:mt-20 mt-[55px] flex flex-col xl:w-3/4 w-fit m-4 text-lg'>
           <p className='text-md'>Heyy, I'm</p>
           <h2 className='font-Giarek md:tracking-wider text-orange-400 font-medium sm:text-4xl text-2xl' >SHREYASH DHULRAO</h2>
           <p className='text-md'>Web Developer | Front-End Developer</p>
@@ -63,7 +63,7 @@ const Homepage = () => {
           <div className=' xl:w-auto lg:w-11/12 w-5/6'>
             <div className='flex flex-col gap-1 my-2'>
               <p className='text-2xl font-semibold'>Personal Information</p>
-              <p className='font-["Raleway"]'>Hi there! I'm here to help you with anything you need, from developing an website, or designing.</p>
+              <p className='font-["Raleway"] text-center md:text-start'>Hi there! I'm here to help you with anything you need, from developing an website, or designing.</p>
             </div>
             <div className='flex md:flex-row flex-col lg:gap-0 gap-3 items-center justify-around py-2'>
               <div className='flex gap-3'>
@@ -87,17 +87,17 @@ const Homepage = () => {
             </div>
             <div className='flex flex-col gap-1 my-2'>
               <p className='text-2xl font-semibold'>Languages</p>
-              <p className='font-["Raleway"]'>English, Hindi, Marathi.</p>
+              <p className='font-["Raleway"] text-center md:text-start'>English, Hindi, Marathi.</p>
             </div>
             <div className='flex flex-col gap-1 my-2'>
               <p className='text-2xl font-semibold'>Courses</p>
-              <p className='font-["Raleway"]'>React js: Dream Technology</p>
-              <p className='font-["Raleway"]'>Web Development: Dream Technology</p>
-              <p className='font-["Raleway"]'>Adobe Photoshop: Udemy</p>
+              <p className='font-["Raleway"] text-center md:text-start'>React js: Dream Technology</p>
+              <p className='font-["Raleway"] text-center md:text-start'>Web Development: Dream Technology</p>
+              <p className='font-["Raleway"] text-center md:text-start'>Adobe Photoshop: Udemy</p>
             </div>
             <div className='flex flex-col gap-1 my-2'>
               <p className='text-2xl font-semibold'>Skills</p>
-              <p className='font-["Raleway"]'>HTML, CSS, Javascript, React, Tailwind CSS, Git, Github, Firebase.</p>
+              <p className='font-["Raleway"] text-center md:text-start'>HTML, CSS, Javascript, React, Tailwind CSS, Git, Github, Firebase.</p>
             </div>
             <div>
               <p className='text-2xl font-semibold'>Tools</p>
@@ -119,7 +119,7 @@ const Homepage = () => {
                 </div>
                 <div className='flex flex-col items-center gap-2'>
                   <img src={Photoshop} alt="" className='w-10 rounded-lg' />
-                  <p className='font-["Raleway"]'>Adobe Photoshop</p>
+                  <p className='font-["Raleway"]'>Photoshop</p>
                 </div>
                 </div>
               </div>
