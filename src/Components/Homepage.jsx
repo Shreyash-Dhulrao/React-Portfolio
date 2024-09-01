@@ -21,16 +21,16 @@ const Homepage = () => {
   return (
     <div>
       <div className='flex h-full data-twe-easing lg:flex-row flex-col lg:items-center items-center justify-evenly lg:justify-around bg-zinc-50 dark:bg-zinc-800 text-black dark:text-white transition duration-300 ease-in-out'>
-        <div className='lg:text-right text-center lg:gap-5 gap-2 lg:mt-0 mt-20 flex flex-col lg:w-1/3 w-full m-4 text-lg'>
+        <div className='lg:text-right text-center lg:gap-5 gap-2 lg:mt-0 mt-20 flex flex-col xl:w-3/4 w-fit m-4 text-lg'>
           <p className='text-md'>Heyy, I'm</p>
-          <h2 className='font-Giarek md:tracking-wider text-orange-400 font-semibold sm:text-5xl text-2xl' >Shreyash Dhulrao</h2>
+          <h2 className='font-Giarek md:tracking-wider text-orange-400 font-medium sm:text-5xl text-2xl' >SHREYASH DHULRAO</h2>
           <p className='text-md'>Web Developer | Front-End Developer</p>
         </div>
         <div className=' 2xl:w-1/3 w-9/12 lg:h-screen lg:pt-16 lg:mt-1 h-1/4 flex items-center justify-center  mx-1 '>
-          <img src={Self} alt="Shreyash Image" className='lg:h-full h-1/2' />
+          <img src={Self} alt="Shreyash Image" className='lg:h-full h-1/2'  />
         </div>
-        <div className='lg:w-1/3 w-11/12 m-4 md:p-0 p-3 lg:text-left text-center '>
-          <h2 className=' font-medium md:text-4xl text-lg text-orange-400'>Howdy folks! Let's explore together.</h2>
+        <div className='xl:w-2/3 w-11/12 m-4 md:p-0 p-3 lg:text-left text-center '>
+          <h2 className=' font-medium md:text-2xl text-lg text-orange-400'>Howdy folks! Let's explore together.</h2>
           <p className='font-["Raleway"] text-md' >Brief description with the insights into myself, my vocational journey and what I engage in professional journey.</p>
           <div className='flex md:flex-row flex-col items-center justify-center gap-3 md:m-3 m-0 my-2'>
             <Link to='/contact' className='flex items-center bg-zinc-200 dark:bg-zinc-900 group justify-center py-2 px-4 gap-3 rounded-2xl hover:text-orange-500 md:w-1/2 w-full '>
@@ -53,8 +53,9 @@ const Homepage = () => {
         </div>
       </div>
       <div className='h-full lg:flex-row flex-col xl:py-5 py-2 lg:items-center items-center justify-evenly lg:justify-around bg-zinc-50 dark:bg-zinc-800 text-black dark:text-white transition duration-300 ease-in-out'>
-        <div className='text-center text-orange-400 tracking-wider gap-5 lg:mt-0 xl:mt-10 flex flex-col w-full my-2 text-lg'><h2 className='font-Giarek font-semibold sm:text-4xl text-2xl'>
-          About Me</h2></div>
+        <div className='text-center text-orange-400 tracking-wider gap-5 lg:mt-0 xl:mt-10 flex flex-col w-full my-2 text-lg'>
+          <h2 className='font-Giarek sm:text-4xl text-2xl'>ABOUT ME</h2>
+          </div>
         <div className='flex justify-evenly items-center'>
           <div className=' w-2/5 lg:h-1/2 h-2/3 xl:block hidden flex items-center justify-center  mx-1 '>
             <img src={About} alt="About icon" className='h-full' />
@@ -64,7 +65,7 @@ const Homepage = () => {
               <p className='text-2xl font-semibold'>Personal Information</p>
               <p className='font-["Raleway"]'>Hi there! I'm here to help you with anything you need, from developing an website, or designing.</p>
             </div>
-            <div className='flex md:flex-row flex-col lg:gap-0 gap-3 items-center justify-around p-4'>
+            <div className='flex md:flex-row flex-col lg:gap-0 gap-3 items-center justify-around py-2'>
               <div className='flex gap-3'>
                 <img src={Profile} alt="" className='w-6' />
                 <p>Shreyash Dhulrao</p>
@@ -74,7 +75,7 @@ const Homepage = () => {
                 <p>+91-7057070480</p>
               </div>
             </div>
-            <div className='flex md:flex-row flex-col lg:gap-0 gap-3 items-center justify-around p-4'>
+            <div className='flex md:flex-row flex-col lg:gap-0 gap-3 items-center justify-around pb-2'>
               <div className='flex gap-3'>
                 <img src={Email} alt="" className='w-6' />
                 <p>shreyashdhularao@gmail.com</p>
@@ -128,7 +129,7 @@ const Homepage = () => {
       </div>
       <div className='h-full lg:flex-row flex-col xl:py-5 py-2 lg:items-center items-center justify-evenly lg:justify-around bg-zinc-50 dark:bg-zinc-800 text-black dark:text-white transition duration-300 ease-in-out'>
         <div className='text-center text-orange-400 tracking-wider gap-5 lg:mt-0 xl:mt-4 flex flex-col w-full my-2 text-lg'>
-          <h2 className='font-Giarek font-semibold sm:text-4xl tracking-wider text-2xl'>Services</h2>
+          <h2 className='font-Giarek  sm:text-4xl tracking-wider text-2xl'>SERVICES</h2>
         </div>
         <div className='flex md:flex-row flex-col justify-evenly gap-5 lg:w-full md:p-3 p-8'>
           <div className='border border-orange-400 text-center p-5 md:w-1/3 w-full gap-3 flex flex-col rounded-3xl'>
