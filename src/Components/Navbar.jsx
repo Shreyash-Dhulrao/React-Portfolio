@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
       </div>
         <div
-            className={`items-center h-12 fixed backdrop-blur-md pt-8 pb-6 transition-all ease-in-out duration-700 text-center md:hidden flex bg-orange-50/50 dark:bg-zinc-900/50 w-full bottom-0 transform-group ms-2 justify-evenly`}
+            className={`items-center h-12 fixed backdrop-blur-md pt-8 pb-6 transition-all ease-in-out duration-700 text-center md:hidden flex bg-orange-50/50 dark:bg-zinc-900/50 w-full bottom-0 transform-group ps-4 justify-evenly`}
           >
             <Link to='/' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-fit items-center justify-center'>
               <Home className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Home
