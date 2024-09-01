@@ -68,15 +68,15 @@ const Navbar = () => {
         </div>
       </div>
         <div
-            className={`items-center h-12 fixed backdrop-blur-md py-8 transition-all ease-in-out duration-700 text-center md:hidden flex bg-orange-50/50 dark:bg-zinc-900/50 w-full bottom-0 transform-group`}
+            className={`items-center h-12 fixed backdrop-blur-md pt-8 pb-6 transition-all ease-in-out duration-700 text-center md:hidden flex bg-orange-50/50 dark:bg-zinc-900/50 w-full bottom-0 transform-group ms-2 justify-evenly`}
           >
-            <Link to='/' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-1/3 items-center justify-center'>
+            <Link to='/' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-fit items-center justify-center'>
               <Home className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Home
             </Link>
-            <Link to='/work' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-1/3 items-center justify-center'>
+            <Link to='/work' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-fit items-center justify-center'>
               <Work className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Work
             </Link>
-            <Link to='/contact' className='flex flex-col text-smcenter border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-1/3 items-center justify-center'>
+            <Link to='/contact' className='flex flex-col text-smcenter border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-fit items-center justify-center'>
               <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Contact Me
             </Link>
           </div>
