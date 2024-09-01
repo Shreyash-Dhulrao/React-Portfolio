@@ -68,16 +68,16 @@ const Navbar = () => {
         </div>
       </div>
         <div
-            className={`items-center h-20 fixed py-5 backdrop-blur-md transition-all ease-in-out duration-700 text-center md:hidden flex bg-orange-50/50 dark:bg-zinc-900/50 w-full bottom-0 transform-group`}
+            className={`items-center h-12 fixed backdrop-blur-md py-8 transition-all ease-in-out duration-700 text-center md:hidden flex bg-orange-50/50 dark:bg-zinc-900/50 w-full bottom-0 transform-group`}
           >
-            <Link to='/' className='flex flex-col items-center border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-full items-center justify-center'>
-              <Home className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-8 group-hover:text-current" />Home
+            <Link to='/' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-1/3 items-center justify-center'>
+              <Home className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Home
             </Link>
-            <Link to='/work' className='flex flex-col  items-center border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-full items-center justify-center'>
-              <Work className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-8 group-hover:text-current" />Work
+            <Link to='/work' className='flex flex-col text-sm border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-1/3 items-center justify-center'>
+              <Work className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Work
             </Link>
-            <Link to='/contact' className='flex flex-col  items-center border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-full items-center justify-center'>
-              <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-8 group-hover:text-current" />Contact Me
+            <Link to='/contact' className='flex flex-col text-smcenter border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-1/3 items-center justify-center'>
+              <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-5 h-5" />Contact Me
             </Link>
           </div>
     </div>
