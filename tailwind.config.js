@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        Giarek: ['Bodoni Mod']
+        Giarek: ['Bodoni Moda']
       }
     },
   },

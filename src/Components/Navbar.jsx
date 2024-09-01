@@ -73,7 +73,7 @@ const Navbar = () => {
     </div>
         {Menuand && (
           <div
-            className={`items-center transition-all ease-in-out duration-700 gap-1 text-center md:hidden flex flex-col absolute right-0 bg-orange-50/75 backdrop-blur-md dark:bg-zinc-800/50 w-1/2 h-screen top-12 transform ${Menuand ? 'translate-x-0' : 'translate-x-full'
+            className={`items-center transition-all ease-in-out duration-700 gap-1 text-center md:hidden flex flex-col absolute right-0 bg-orange-50/75 backdrop-blur-md dark:bg-zinc-800/50 w-2/3 h-screen top-12 transform ${Menuand ? 'translate-x-0' : 'translate-x-full'
               }`}
           >
             <Link to='/' className='group backdrop-blur-lg flex items-center border-b-2 dark:hover:text-orange-500 border-transparent hover:border-orange-400 hover:text-orange-400 dark:text-white w-full gap-2 bg-orange-100/50 items-center justify-center dark:bg-zinc-600/50'>
