@@ -33,9 +33,9 @@ const Homepage = () => {
           <h2 className=' font-medium md:text-2xl text-lg text-orange-400'>Howdy folks! Let's explore together.</h2>
           <p className='font-["Raleway"] text-md' >Brief description with the insights into myself, my vocational journey and what I engage in professional journey.</p>
           <div className='flex md:flex-row flex-col items-center justify-center gap-3 md:m-3 m-0 my-2'>
-            <Link to='/contact' className='flex items-center bg-zinc-200 dark:bg-zinc-900 group justify-center py-2 px-4 gap-3 rounded-2xl hover:text-orange-500 md:w-1/3 w-full '>
+            <Link to='/contact' className='flex items-center bg-zinc-200 dark:bg-zinc-900 group justify-center py-2 px-4 gap-3 rounded-2xl hover:text-orange-500 md:w-2/3 w-full '>
               <Contact className="text-black dark:text-zinc-100 w-6 dark:hover:text-orange-500 group-hover:text-current" />Contact</Link>
-            <a href={Resume} download="Resume.pdf" className='flex items-center border-zinc-200 dark:border-zinc-900 border-2 group justify-center py-2 px-4 gap-3 rounded-2xl hover:text-orange-500 md:w-1/3 w-full ' target='_blank'>
+            <a href={Resume} download="Resume.pdf" className='flex items-center border-zinc-200 dark:border-zinc-900 border-2 group justify-center py-2 px-4 gap-3 rounded-2xl hover:text-orange-500 md:w-2/3 w-full ' target='_blank'>
               <Paper className="text-black dark:text-zinc-100 w-6 dark:hover:text-orange-500 group-hover:text-current" />Resume
             </a>
           </div>
