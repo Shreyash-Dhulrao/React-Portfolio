@@ -1,15 +1,13 @@
 import React from 'react'
-import { useState , useEffect} from 'react'
+import { useState, useEffect } from 'react'
 import Home from './Icons/Home.svg?react'
 import Work from './Icons/Work.svg?react'
 import Contact from './Icons/Contact.svg?react'
-import Menu from './Icons/Menu.svg?react'
 import Sun from './Icons/Sun.svg?react'
 import { Link } from 'react-router-dom'
 import useTheme from '../Context/Theme'
 
 const Navbar = () => {
-  const [Menuand, setMenuand] = useState(false)
   const [scrollProgress, setScrollProgress] = useState(0);
   const { themeMode, lightTheme, darkTheme } = useTheme()
   const onChangeBtn = (e) => {
@@ -31,13 +29,13 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);   
+      window.removeEventListener('scroll', handleScroll);
 
     };
   }, []);
   return (
     <div>
-      
+
       <div className='w-screen bg-orange-50/75 backdrop-blur-md dark:bg-zinc-900/50  transition duration-300 fixed dark:text-white flex justify-around'>
         <div className='flex items-center justify-center'>
           <h2 className={`md:text-3xl text-xl font-Giarek `}>PORTFOLIO</h2>
@@ -63,31 +61,25 @@ const Navbar = () => {
           <label htmlFor="Theme">
             <Sun className="text-black dark:text-white w-8 my-2 rounded-3xl outline outline-1 h-auto p-2" />
           </label>
-          <button onClick={() => { (Menuand === false) ? setMenuand(true) : setMenuand(false) }} className='group'>
-            <Menu className="text-black dark:text-white w-6" />
-          </button>
         </div>
         <div className="fixed top-0 lg:mx-10 lg:mt-0.5 left-0 right-0 h-1 bg-transparent">
-      <div className="h-full bg-orange-400 " style={{ width: `${scrollProgress}%` }}>
+          <div className="h-full bg-orange-400 " style={{ width: `${scrollProgress}%` }}>
+          </div>
+        </div>
       </div>
-    </div>
-        {Menuand && (
-          <div
-            className={`items-center transition-all ease-in-out duration-700 gap-1 text-center md:hidden flex flex-col absolute right-0 bg-orange-50/75 backdrop-blur-md dark:bg-zinc-800/50 w-2/3 h-screen top-12 transform-group ${Menuand ? 'group:translate-x-0' : 'group:translate-x-full'
-              }`}
+        <div
+            className={`items-center h-20 fixed py-5 backdrop-blur-md transition-all ease-in-out duration-700 text-center md:hidden flex bg-orange-50/50 dark:bg-zinc-900/50 w-full bottom-0 transform-group`}
           >
-            <Link to='/' className='group backdrop-blur-lg flex items-center border-b-2 dark:hover:text-orange-500 border-transparent hover:border-orange-400 hover:text-orange-400 dark:text-white w-full gap-2 bg-orange-100/50 items-center justify-center dark:bg-zinc-600/50'>
-              <Home className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-6 group-hover:text-current" />Home
+            <Link to='/' className='flex flex-col items-center border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-full items-center justify-center'>
+              <Home className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-8 group-hover:text-current" />Home
             </Link>
-            <Link to='/work' className='group backdrop-blur-lg flex items-center border-b-2 dark:hover:text-orange-500 border-transparent hover:border-orange-400 hover:text-orange-400 dark:text-white w-full gap-2 bg-orange-100/50 items-center justify-center dark:bg-zinc-600/50'>
-              <Work className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-6 group-hover:text-current" />Work
+            <Link to='/work' className='flex flex-col  items-center border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-full items-center justify-center'>
+              <Work className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-8 group-hover:text-current" />Work
             </Link>
-            <Link to='/contact' className='group backdrop-blur-lg flex items-center border-b-2 dark:hover:text-orange-500 border-transparent hover:border-orange-400 hover:text-orange-400 dark:text-white w-full gap-2 bg-orange-100/50 items-center justify-center dark:bg-zinc-600/50'>
-              <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-6 group-hover:text-current" />Contact Me
+            <Link to='/contact' className='flex flex-col  items-center border-b-2 dark:hover:text-orange-500 border-transparent dark:text-white w-full items-center justify-center'>
+              <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-8 group-hover:text-current" />Contact Me
             </Link>
           </div>
-        )}
-      </div>
     </div>
   )
 }

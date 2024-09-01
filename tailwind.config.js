@@ -14,7 +14,7 @@ export default {
       fontSize: {
         sm: '0.8rem',
         base: '1rem',
-        '5xl': '2.7rem',}
+        '4xl': '2.6rem',}
     },
   },
   plugins: [],
