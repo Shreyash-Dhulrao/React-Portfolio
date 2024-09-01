@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        Giarek: ['Bodoni Moda']
+        Giarek: ['Bodoni Moda'],
+        Raleway: ['Raleway']
       }
     },
   },
