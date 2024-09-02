@@ -4,6 +4,7 @@ import { useState , useEffect } from "react";
 import { ThemeProvider } from "./Context/Theme";
 import Homepage from "./Components/Homepage";
 import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light")
@@ -23,6 +24,10 @@ function App() {
     {
       path: "/",
       element: <><Navbar /><Homepage /><Footer /></>,
+    },
+    {
+      path: "/contact",
+      element: <><Navbar /><Contact /><Footer /></>,
     },
   ]);
 
