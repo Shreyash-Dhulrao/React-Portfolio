@@ -1,5 +1,5 @@
 import React from 'react'
-import Self from './Images/Self.jpg'
+import Self from './Images/Self.png'
 import { Link } from 'react-router-dom'
 import Contact from './Icons/Contact.svg?react'
 import Linkedin from './Icons/Linkedin.svg?react'
@@ -26,8 +26,8 @@ const Homepage = () => {
           <h2 className='font-Giarek md:tracking-wider text-orange-400 font-medium sm:text-4xl text-2xl' >SHREYASH DHULRAO</h2>
           <p className='sm:text-lg text-sm'>Web Developer | Front-End Developer</p>
         </div>
-        <div className=' xl:w-2/3 w-9/12 lg:h-screen lg:pt-16 lg:mt-1 h-1/4 flex items-center justify-center  mx-1 '>
-          <img src={Self} alt="Shreyash Image" className='lg:h-full h-1/2'  />
+        <div className=' xl:w-2/3 w-10/12 lg:h-screen lg:pt-16 lg:mt-1 h-1/4 flex items-center justify-center  mx-1 '>
+          <img src={Self} alt="Shreyash Image" className='lg:h-full h-1/2 w-content '  />
         </div>
         <div className='xl:w-2/3 md:w-8/12 w-11/12 m-4 md:p-0 p-3 lg:text-left text-center '>
           <h2 className=' font-medium md:text-2xl text-lg text-orange-400'>Howdy folks! Let's explore together.</h2>
