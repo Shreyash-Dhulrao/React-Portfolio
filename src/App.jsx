@@ -5,6 +5,7 @@ import { ThemeProvider } from "./Context/Theme";
 import Homepage from "./Components/Homepage";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
+import Work from "./Components/Work";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light")
@@ -28,6 +29,10 @@ function App() {
     {
       path: "/contact",
       element: <><Navbar /><Contact /><Footer /></>,
+    },
+    {
+      path: "/work",
+      element: <><Navbar /><Work /><Footer /></>,
     },
   ]);
 
