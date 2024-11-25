@@ -141,7 +141,7 @@ const Homepage = () => {
             <p className='font-["Raleway"] text-justify sm:text-lg text-sm '>Partner with you to understand your unique business needs and develop tailored web applications. From concept to deployment, I'm dedicated to delivering exceptional results that exceed your expectations.</p>
           </div>
           <div className='border border-orange-400 text-center p-5 md:w-1/3 w-full gap-3 flex flex-col rounded-3xl'>
-            <h2 className='sm:text-3xl text-xl font-semibold'>Photo Editor</h2>
+            <h2 className='sm:text-3xl text-xl font-semibold'>Image Editing</h2>
             <p className='font-["Raleway"] text-justify sm:text-lg text-sm '>Transform your images into stunning works of art with my expert image editing skills. I specialize in [specific techniques, e.g., retouching, color correction, compositing] to deliver pixel-perfect results.</p>
           </div>
         </div>

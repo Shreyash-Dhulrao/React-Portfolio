@@ -36,19 +36,16 @@ const Navbar = () => {
   return (
     <div>
 
-      <div className='w-screen bg-orange-50/75 backdrop-blur-md dark:bg-zinc-900/50  transition duration-300 fixed dark:text-white flex justify-around'>
+      <div className='w-screen h-16 bg-orange-50/75 backdrop-blur-md dark:bg-zinc-900/50  transition duration-300 fixed dark:text-white flex justify-around'>
         <div className='flex items-center justify-center'>
           <h2 className={`md:text-3xl text-xl font-Giarek `}>PORTFOLIO</h2>
         </div>
         <div className=' items-center gap-3 text-center md:inline-flex hidden font-["Raleway"] tracking-wide'>
-          <Link to='/' className='group flex items-center dark:hover:text-orange-500 hover:text-orange-500 dark:text-white p-2  gap-2 transition duration-300 linear'>
-            <Home className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-6 group-hover:text-current" />Home
+          <Link to='/' className='group flex items-center dark:hover:text-orange-500 hover:text-orange-500 hover:text-lg text-md dark:text-white p-2  gap-2 transition duration-300'>Home
           </Link>
-          <Link to='/work' className='group flex items-center dark:hover:text-orange-500 hover:text-orange-500 dark:text-white p-2  gap-2 transition duration-300 linear'>
-            <Work className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-6 group-hover:text-current" />Work
+          <Link to='/projects' className='group flex items-center dark:hover:text-orange-500 hover:text-orange-500 hover:text-lg text-md dark:text-white p-2  gap-2 transition duration-300'>Work
           </Link>
-          <Link to='/contact' className='group flex items-center dark:hover:text-orange-500 hover:text-orange-500 dark:text-white p-2  gap-2 transition duration-300 linear'>
-            <Contact className="text-black dark:text-zinc-100 dark:hover:text-orange-500 w-6 group-hover:text-current" />Contact Me
+          <Link to='/contact' className='group flex items-center dark:hover:text-orange-500 hover:text-orange-500 hover:text-lg text-md dark:text-white p-2  gap-2 transition duration-300'>Contact Me
           </Link>
 
           <input type="checkbox" onChange={onChangeBtn} checked={themeMode === 'light'} hidden id='Theme' />

@@ -4,17 +4,16 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "class",
+  darkMode:"class",
   theme: {
     extend: {
       fontFamily:{
-        Giarek: ['Antic Didone'],
-        Raleway: ['Raleway']
-      },
-      fontSize: {
-        sm: '0.8rem',
-        base: '1rem',
-        '4xl': '2.6rem',}
+        Mona:["Mona Sans"],
+        Imperial: ["Imperial Script"],
+        Antic: ["Antic Didone"],
+        Petit: ["Petit Formal Script"],
+        Plaster: ["Plaster"]
+      }
     },
   },
   plugins: [],
