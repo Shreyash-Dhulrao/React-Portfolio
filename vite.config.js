@@ -5,7 +5,4 @@ import svgr from "vite-plugin-svgr";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react() , svgr()],
-  rollupOptions: {
-    external: ['path/to/your/asset/main-Bgm604fQ.js']
-  }
 })
