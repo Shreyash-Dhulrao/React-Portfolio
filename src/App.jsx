@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Intro from './Components/Home'
+import Intro from './Components/Home/intro'
 import Main from './Components/Home/Main'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
