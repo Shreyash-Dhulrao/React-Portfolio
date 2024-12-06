@@ -41,7 +41,7 @@ const Main = () => {
                         <div className='flex flex-col gap-5 items-center justify-center'>
                             <h2 className='font-semibold md:text-3xl text-lg text-center gap-3 font-Mona '>Interested in collaborating with me?</h2>
                             <p className=' text-center md:text-sm text-xs font-light text-zinc-400 font-Petit'>I’m always open to discussing product design work or partnership opportunities.</p>
-                            <Link className="group flex h-fit w-fit flex-col items-center justify-center rounded-sm bg-violet-500 md:px-[2em] px-6  md:py-[0.5em] py-2 shadow-[inset_0px_2px_4px_0px_violet-600,inset_0px_-2px_4px_0px_violet-600,0px_-2px_16px_0px_violet-600,0px_2px_16px_0px_violet-600] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_violet-600,inset_0px_2px_4px_0px_violet-500,0px_2px_16px_0px_violet-600,0px_2px_16px_0px_violet-600]">
+                            <Link to="/contact" className="group flex h-fit w-fit flex-col items-center justify-center rounded-sm bg-violet-500 md:px-[2em] px-6  md:py-[0.5em] py-2 shadow-[inset_0px_2px_4px_0px_violet-600,inset_0px_-2px_4px_0px_violet-600,0px_-2px_16px_0px_violet-600,0px_2px_16px_0px_violet-600] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_violet-600,inset_0px_2px_4px_0px_violet-500,0px_2px_16px_0px_violet-600,0px_2px_16px_0px_violet-600]">
                                 <p className=" duration-200 tracking-wide group-active:translate-y-[5%] text-white">
                                     Start Conversation
                                 </p>
