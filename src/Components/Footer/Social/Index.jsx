@@ -52,7 +52,7 @@ const Button = () => {
                         +91 7057070480</p>
                     <p className='flex items-center gap-2'>
                         <Mail className="w-8 h-8"/>
-                        shreyashdhulrao@gmail.com</p>
+                        shreyashdhularao@gmail.com</p>
                 </div>
             </div>
         </div>
