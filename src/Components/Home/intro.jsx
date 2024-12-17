@@ -2,7 +2,8 @@ import React from 'react'
 import { motion, AnimatePresence } from "motion/react"
 
 const index = () => {
-  const line1 = "Shreyash Dhulrao Portoflio"
+  const line1 = "Shreyash Dhulrao "
+  const line2 = " Portoflio"
   const sentence = {
     hidden: { opacity: 1 },
     visible: {
@@ -39,6 +40,13 @@ const index = () => {
           >
             {
               line1.split("").map((item, index) => (
+                <motion.span key={item + "-" + index} variants={letter} className='font-medium font-Mona text-2xl tracking-wide text-violet-500'>
+                  {item}
+                </motion.span>
+              ))
+            }
+            {
+              line2.split("").map((item, index) => (
                 <motion.span key={item + "-" + index} variants={letter} className='font-regular font-Mona text-xl tracking-wide text-white'>
                   {item}
                 </motion.span>
