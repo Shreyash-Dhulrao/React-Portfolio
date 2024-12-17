@@ -46,12 +46,12 @@ const Button = () => {
             </div>
             <div className='flex items-center justify-cetner flex-col gap-3'>
                 <h2 className='md:text-2xl text-lg font-medium'>Contacts</h2>
-                <div className='text-center md:opacity-70 flex gap-3 flex-col'>
+                <div className='text-center md:opacity-80 items-center justify-center flex md:flex-row flex-col md:gap-4 gap-2 '>
                     <p className='flex items-center gap-2'>
-                        <Mobile className="w-8 h-8"/>
+                        <Mobile className="w-6 h-6"/>
                         +91 7057070480</p>
                     <p className='flex items-center gap-2'>
-                        <Mail className="w-8 h-8"/>
+                        <Mail className="w-6 h-6"/>
                         shreyashdhularao@gmail.com</p>
                 </div>
             </div>
