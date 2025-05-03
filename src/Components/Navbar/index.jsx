@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { ThemeToggle } from '../../redux/Theme'
 import { useState } from 'react'
-import Resume  from './shreyash_dhulrao.pdf'
+import Resume  from '/shreyash_dhulrao.pdf'
 
 const index = () => {
     const dispatch = useDispatch()
